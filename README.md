@@ -1,0 +1,96 @@
+Nosso código será uma rede de criptografia, onde o usuário poderá criptografar textos com diferentes métodos.
+
+
+A primeira opção será uma Cifra de Cesar, que consiste em uma técnica de criptografia que representa 
+uma letra do alfabeto com outra letra em uma sequência padrão de distância.
+
+O código consiste no usuário digitar uma frase no terminal, e o código automaticamente irá 
+enviar a frase criptografada. 
+
+A criptografia funciona com o usuário determinando o quanto será a distância entre a letra 
+escolhida e a letra que será retornada.
+
+Assim, o código retorna a frase com as letras devidamente codificadas conforme a preferência do usuário.
+
+Exemplo:
+
+Escreva a frase: "Olá mundo"
+Qual será a criptografia? 3
+
+Mensagem criptografada para: "Roá Pxqgr"
+
+Aqui, cada letra foi representada por outra 3 casas a frente a 
+original, como o "O", trocado para "R", pois R vem três letras depois do O.
+
+
+Além disso, o sistema também irá descriptografar a mensagem se o usuário desejar, revelando o original.
+
+Exemplo:
+
+Escreva sua frase:"JAVASCRIPT"
+Qual será a criptogafia? 5
+
+Mensagem criptografada para: "OFAFXHWNUY"
+
+Deseja descriptografar? Sim
+Mensagem original: "JAVASCRIPT"
+
+
+
+Além disso, o usuário também terá uma segunda opção de criptogafia: a cifra de Atbash. Ela é uma técnica de criptografia hebraica que usaremos com o alfabeto romano.
+
+Ela opera invertendo o alfabeto usual. O usuário vai precisar escolher a opção "Cifra de Atbash" para criptografar a mensagem por esse método.
+
+Também será possível retornar a mensagem inicial se o usuário desejar:
+
+Exemplo:
+
+Escreva sua frase:"Dinheiro"
+
+Mensagem criptografada para:"Wrmsvril"
+
+Deseja descriptografar? Sim
+Mensagem original:"Dinheiro"
+
+
+Exemplo final:
+
+REDE DE CRIPTOGRAFIA
+
+ESCOLHA SEU MÉTODO DE CRIPTOGRAFIA:
+ 1: Cifra de Cesar
+ 2: Cifra de Atbash
+Digite o número para selecionar a opção: 1
+
+Cifra de Cesar:
+Escreva sua frase:"JAVASCRIPT"
+Qual será a criptogafia? 5
+
+Mensagem criptografada para: "OFAFXHWNUY"
+
+Deseja descriptografar? Sim
+Mensagem original: "JAVASCRIPT"
+ ou 
+
+Deseja descriptografar? Não
+Encerrando o programa...
+
+
+ESCOLHA SEU MÉTODO DE CRIPTOGRAFIA:
+ 1: Cifra de Cesar
+ 2: Cifra de Atbash
+Digite o número para selecionar a opção: 2
+
+Cifra de Atbash:
+Escreva sua frase:"Dinheiro"
+
+Mensagem criptografada para:"Wrmsvril"
+
+Deseja descriptografar? Sim
+Mensagem original:"Dinheiro"
+ou
+Deseja descriptografar? Não
+Encerrando o programa...
+
+
+Membros:Igor Costa Rebouças,Gustavo da Silva Vasconcelos,Igor de Sá Cavalcante Chacon.
