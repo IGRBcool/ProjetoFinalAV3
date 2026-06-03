@@ -79,13 +79,13 @@ if (escolha == 1) {
 
   let texto = prompt("Escreva a frase:");
   // Solicita o deslocamento para a cifra de César
-  let deslocamento = parseInt(prompt("Qual será o deslocamento?"));
+  let deslocamento = parseInt(prompt("Qual será o deslocamento? "));
 
   let criptografado = cifraDeCesar(texto, deslocamento);
   // Exibe a mensagem criptografada
-  console.log("Mensagem criptografada:", criptografado);
+  console.log("Mensagem criptografada: ", criptografado);
 
-  let descCesar = prompt("Deseja decifrar? (sim ou não)");
+  let descCesar = prompt("Deseja decifrar? (sim ou não) ");
   // Verifica se o usuário deseja decifrar a mensagem
   if (descCesar.toLowerCase() === "sim") {
     // Exibe a mensagem decifrada usando a função de decifrar César
@@ -102,13 +102,13 @@ else if (escolha == 2) {
 
   console.log("=== Cifra de Atbash ===");
   // Solicita ao usuário que escreva a frase a ser criptografada
-  let texto = prompt("Escreva a frase: ");
+  let texto = prompt("Escreva a frase:  ");
 
   let criptografado = cifraDeAtbash(texto);
   // Exibe a mensagem criptografada
-  console.log("Mensagem criptografada:", criptografado);
+  console.log("Mensagem criptografada: ", criptografado);
 
-  let descAtbash = prompt("Deseja decifrar? (sim ou não)");
+  let descAtbash = prompt("Deseja decifrar? (sim ou não) ");
   // Verifica se o usuário deseja decifrar a mensagem
   if (descAtbash.toLowerCase() === "sim") {
     // Exibe a mensagem decifrada usando a função de decifrar Atbash
