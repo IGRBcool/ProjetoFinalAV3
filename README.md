@@ -73,6 +73,7 @@ Mensagem original: "JAVASCRIPT"
  ou 
 
 Deseja descriptografar? Não
+
 Encerrando o programa...
 
 
@@ -90,6 +91,7 @@ Deseja descriptografar? Sim
 Mensagem original:"Dinheiro"
 ou
 Deseja descriptografar? Não
+
 Encerrando o programa...
 
 
